@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RSContactApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AA041BC31C4F9B7B00793793</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAE2E2961C4535C800680D53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAE2E2B21C4535C800680D53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAE2E2BD1C4535C800680D53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

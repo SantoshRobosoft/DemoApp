@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB6011C1C48A7EF00D41D79 /* MetroUI-Other-Phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AAB6011B1C48A7EF00D41D79 /* MetroUI-Other-Phone-icon.png */; };
+		AABCE8421C460735001B559D /* RSAddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCE8401C460735001B559D /* RSAddContactViewController.m */; };
+		AABCE8441C4616C3001B559D /* contact2.png in Resources */ = {isa = PBXBuildFile; fileRef = AABCE8431C4616C3001B559D /* contact2.png */; };
+		AABCE8481C461CAE001B559D /* RSDisplayContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCE8471C461CAE001B559D /* RSDisplayContactDetailViewController.m */; };
+		AABCE84C1C46210A001B559D /* RSEditContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AABCE84B1C46210A001B559D /* RSEditContactViewController.m */; };
+		AAE2E29C1C4535C800680D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E29B1C4535C800680D53 /* main.m */; };
+		AAE2E29F1C4535C800680D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E29E1C4535C800680D53 /* AppDelegate.m */; };
+		AAE2E2A21C4535C800680D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2A11C4535C800680D53 /* ViewController.m */; };
+		AAE2E2A51C4535C800680D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE2E2A31C4535C800680D53 /* Main.storyboard */; };
+		AAE2E2A81C4535C800680D53 /* RSContactApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2A61C4535C800680D53 /* RSContactApp.xcdatamodeld */; };
+		AAE2E2AA1C4535C800680D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE2E2A91C4535C800680D53 /* Assets.xcassets */; };
+		AAE2E2AD1C4535C800680D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE2E2AB1C4535C800680D53 /* LaunchScreen.storyboard */; };
+		AAE2E2C31C4535C800680D53 /* RSContactAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2C21C4535C800680D53 /* RSContactAppUITests.m */; };
+		AAE2E2E51C453C9700680D53 /* RSContactDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2E41C453C9700680D53 /* RSContactDetails.m */; };
+		AAE2E2EA1C453CC100680D53 /* ContactDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2E71C453CC100680D53 /* ContactDetails.m */; };
+		AAE2E2EB1C453CC100680D53 /* ContactDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2E91C453CC100680D53 /* ContactDetails+CoreDataProperties.m */; };
+		AAE2E2EE1C453CE300680D53 /* RSContactListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2ED1C453CE300680D53 /* RSContactListTableViewController.m */; };
+		AAE2E2F21C453F3A00680D53 /* RSManageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE2E2F11C453F3A00680D53 /* RSManageCoreData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE2E2B41C4535C800680D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE2E28F1C4535C800680D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE2E2961C4535C800680D53;
+			remoteInfo = RSContactApp;
+		};
+		AAE2E2BF1C4535C800680D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE2E28F1C4535C800680D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE2E2961C4535C800680D53;
+			remoteInfo = RSContactApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAB6011B1C48A7EF00D41D79 /* MetroUI-Other-Phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MetroUI-Other-Phone-icon.png"; sourceTree = "<group>"; };
+		AABCE8401C460735001B559D /* RSAddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddContactViewController.m; sourceTree = "<group>"; };
+		AABCE8411C460735001B559D /* RSAddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddContactViewController.h; sourceTree = "<group>"; };
+		AABCE8431C4616C3001B559D /* contact2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact2.png; sourceTree = "<group>"; };
+		AABCE8461C461CAE001B559D /* RSDisplayContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSDisplayContactDetailViewController.h; path = Classes/Controller/DisplayContact/RSDisplayContactDetailViewController.h; sourceTree = "<group>"; };
+		AABCE8471C461CAE001B559D /* RSDisplayContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSDisplayContactDetailViewController.m; path = Classes/Controller/DisplayContact/RSDisplayContactDetailViewController.m; sourceTree = "<group>"; };
+		AABCE84A1C46210A001B559D /* RSEditContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSEditContactViewController.h; path = "Classes/Controller/Edit Contact/RSEditContactViewController.h"; sourceTree = "<group>"; };
+		AABCE84B1C46210A001B559D /* RSEditContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSEditContactViewController.m; path = "Classes/Controller/Edit Contact/RSEditContactViewController.m"; sourceTree = "<group>"; };
+		AAE2E2971C4535C800680D53 /* RSContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE2E29B1C4535C800680D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAE2E29D1C4535C800680D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAE2E29E1C4535C800680D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAE2E2A01C4535C800680D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAE2E2A11C4535C800680D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAE2E2A41C4535C800680D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE2E2A71C4535C800680D53 /* RSContactApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSContactApp.xcdatamodel; sourceTree = "<group>"; };
+		AAE2E2A91C4535C800680D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE2E2AC1C4535C800680D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE2E2AE1C4535C800680D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE2E2B31C4535C800680D53 /* RSContactAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSContactAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE2E2B91C4535C800680D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE2E2BE1C4535C800680D53 /* RSContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSContactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE2E2C21C4535C800680D53 /* RSContactAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSContactAppUITests.m; sourceTree = "<group>"; };
+		AAE2E2C41C4535C800680D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE2E2E31C453C9700680D53 /* RSContactDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSContactDetails.h; path = Classes/Model/ContactInfo/RSContactDetails.h; sourceTree = "<group>"; };
+		AAE2E2E41C453C9700680D53 /* RSContactDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSContactDetails.m; path = Classes/Model/ContactInfo/RSContactDetails.m; sourceTree = "<group>"; };
+		AAE2E2E61C453CC100680D53 /* ContactDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactDetails.h; path = Classes/Model/CoreData/ContactDetails.h; sourceTree = "<group>"; };
+		AAE2E2E71C453CC100680D53 /* ContactDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactDetails.m; path = Classes/Model/CoreData/ContactDetails.m; sourceTree = "<group>"; };
+		AAE2E2E81C453CC100680D53 /* ContactDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ContactDetails+CoreDataProperties.h"; path = "Classes/Model/CoreData/ContactDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AAE2E2E91C453CC100680D53 /* ContactDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ContactDetails+CoreDataProperties.m"; path = "Classes/Model/CoreData/ContactDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AAE2E2EC1C453CE300680D53 /* RSContactListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSContactListTableViewController.h; path = "Classes/Controller/Contact List/RSContactListTableViewController.h"; sourceTree = "<group>"; };
+		AAE2E2ED1C453CE300680D53 /* RSContactListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSContactListTableViewController.m; path = "Classes/Controller/Contact List/RSContactListTableViewController.m"; sourceTree = "<group>"; };
+		AAE2E2F01C453F3A00680D53 /* RSManageCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSManageCoreData.h; path = Classes/Utility/RSManageCoreData.h; sourceTree = "<group>"; };
+		AAE2E2F11C453F3A00680D53 /* RSManageCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSManageCoreData.m; path = Classes/Utility/RSManageCoreData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE2E2941C4535C800680D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2B01C4535C800680D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2BB1C4535C800680D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA75745E1C47B47200BEDC16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E29E1C4535C800680D53 /* AppDelegate.m */,
+				AAE2E2A01C4535C800680D53 /* ViewController.h */,
+				AAE2E2A11C4535C800680D53 /* ViewController.m */,
+				AAE2E2A31C4535C800680D53 /* Main.storyboard */,
+				AAE2E2A91C4535C800680D53 /* Assets.xcassets */,
+				AAE2E2AB1C4535C800680D53 /* LaunchScreen.storyboard */,
+				AAE2E2AE1C4535C800680D53 /* Info.plist */,
+				AAE2E2A61C4535C800680D53 /* RSContactApp.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AABCE83F1C460718001B559D /* Add Contact */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE8411C460735001B559D /* RSAddContactViewController.h */,
+				AABCE8401C460735001B559D /* RSAddContactViewController.m */,
+			);
+			name = "Add Contact";
+			sourceTree = "<group>";
+		};
+		AABCE8451C461C5F001B559D /* DisplayContact */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE8461C461CAE001B559D /* RSDisplayContactDetailViewController.h */,
+				AABCE8471C461CAE001B559D /* RSDisplayContactDetailViewController.m */,
+			);
+			name = DisplayContact;
+			sourceTree = "<group>";
+		};
+		AABCE8491C46209C001B559D /* Edit Contact */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE84A1C46210A001B559D /* RSEditContactViewController.h */,
+				AABCE84B1C46210A001B559D /* RSEditContactViewController.m */,
+			);
+			name = "Edit Contact";
+			sourceTree = "<group>";
+		};
+		AAE2E28E1C4535C800680D53 = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2991C4535C800680D53 /* RSContactApp */,
+				AAE2E2B61C4535C800680D53 /* RSContactAppTests */,
+				AAE2E2C11C4535C800680D53 /* RSContactAppUITests */,
+				AAE2E2981C4535C800680D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE2E2981C4535C800680D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2971C4535C800680D53 /* RSContactApp.app */,
+				AAE2E2B31C4535C800680D53 /* RSContactAppTests.xctest */,
+				AAE2E2BE1C4535C800680D53 /* RSContactAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE2E2991C4535C800680D53 /* RSContactApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA75745E1C47B47200BEDC16 /* Resources */,
+				AAE2E2D61C45385800680D53 /* Classes */,
+				AAE2E29A1C4535C800680D53 /* Supporting Files */,
+			);
+			path = RSContactApp;
+			sourceTree = "<group>";
+		};
+		AAE2E29A1C4535C800680D53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE8431C4616C3001B559D /* contact2.png */,
+				AAB6011B1C48A7EF00D41D79 /* MetroUI-Other-Phone-icon.png */,
+				AAE2E29B1C4535C800680D53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE2E2B61C4535C800680D53 /* RSContactAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2B91C4535C800680D53 /* Info.plist */,
+			);
+			path = RSContactAppTests;
+			sourceTree = "<group>";
+		};
+		AAE2E2C11C4535C800680D53 /* RSContactAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2C21C4535C800680D53 /* RSContactAppUITests.m */,
+				AAE2E2C41C4535C800680D53 /* Info.plist */,
+			);
+			path = RSContactAppUITests;
+			sourceTree = "<group>";
+		};
+		AAE2E2D61C45385800680D53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E29D1C4535C800680D53 /* AppDelegate.h */,
+				AAE2E2F31C45430D00680D53 /* Protocol */,
+				AAE2E2EF1C453E6C00680D53 /* Service Manager API */,
+				AAE2E2D91C45387F00680D53 /* Model */,
+				AAE2E2D81C45387800680D53 /* View */,
+				AAE2E2D71C45386300680D53 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		AAE2E2D71C45386300680D53 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AABCE8491C46209C001B559D /* Edit Contact */,
+				AABCE8451C461C5F001B559D /* DisplayContact */,
+				AABCE83F1C460718001B559D /* Add Contact */,
+				AAE2E2DF1C453B3D00680D53 /* Contact List */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AAE2E2D81C45387800680D53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AAE2E2D91C45387F00680D53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2DB1C4538CD00680D53 /* ContactInfo */,
+				AAE2E2DA1C45388C00680D53 /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AAE2E2DA1C45388C00680D53 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2E61C453CC100680D53 /* ContactDetails.h */,
+				AAE2E2E71C453CC100680D53 /* ContactDetails.m */,
+				AAE2E2E81C453CC100680D53 /* ContactDetails+CoreDataProperties.h */,
+				AAE2E2E91C453CC100680D53 /* ContactDetails+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		AAE2E2DB1C4538CD00680D53 /* ContactInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2E31C453C9700680D53 /* RSContactDetails.h */,
+				AAE2E2E41C453C9700680D53 /* RSContactDetails.m */,
+			);
+			name = ContactInfo;
+			sourceTree = "<group>";
+		};
+		AAE2E2DF1C453B3D00680D53 /* Contact List */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2EC1C453CE300680D53 /* RSContactListTableViewController.h */,
+				AAE2E2ED1C453CE300680D53 /* RSContactListTableViewController.m */,
+			);
+			name = "Contact List";
+			sourceTree = "<group>";
+		};
+		AAE2E2EF1C453E6C00680D53 /* Service Manager API */ = {
+			isa = PBXGroup;
+			children = (
+				AAE2E2F01C453F3A00680D53 /* RSManageCoreData.h */,
+				AAE2E2F11C453F3A00680D53 /* RSManageCoreData.m */,
+			);
+			name = "Service Manager API";
+			sourceTree = "<group>";
+		};
+		AAE2E2F31C45430D00680D53 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE2E2961C4535C800680D53 /* RSContactApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE2E2C71C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactApp" */;
+			buildPhases = (
+				AAE2E2931C4535C800680D53 /* Sources */,
+				AAE2E2941C4535C800680D53 /* Frameworks */,
+				AAE2E2951C4535C800680D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSContactApp;
+			productName = RSContactApp;
+			productReference = AAE2E2971C4535C800680D53 /* RSContactApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE2E2B21C4535C800680D53 /* RSContactAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE2E2CA1C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactAppTests" */;
+			buildPhases = (
+				AAE2E2AF1C4535C800680D53 /* Sources */,
+				AAE2E2B01C4535C800680D53 /* Frameworks */,
+				AAE2E2B11C4535C800680D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE2E2B51C4535C800680D53 /* PBXTargetDependency */,
+			);
+			name = RSContactAppTests;
+			productName = RSContactAppTests;
+			productReference = AAE2E2B31C4535C800680D53 /* RSContactAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE2E2BD1C4535C800680D53 /* RSContactAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE2E2CD1C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactAppUITests" */;
+			buildPhases = (
+				AAE2E2BA1C4535C800680D53 /* Sources */,
+				AAE2E2BB1C4535C800680D53 /* Frameworks */,
+				AAE2E2BC1C4535C800680D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE2E2C01C4535C800680D53 /* PBXTargetDependency */,
+			);
+			name = RSContactAppUITests;
+			productName = RSContactAppUITests;
+			productReference = AAE2E2BE1C4535C800680D53 /* RSContactAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE2E28F1C4535C800680D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Robosoft Technologies";
+				TargetAttributes = {
+					AAE2E2961C4535C800680D53 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					AAE2E2B21C4535C800680D53 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AAE2E2961C4535C800680D53;
+					};
+					AAE2E2BD1C4535C800680D53 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = AAE2E2961C4535C800680D53;
+					};
+				};
+			};
+			buildConfigurationList = AAE2E2921C4535C800680D53 /* Build configuration list for PBXProject "RSContactApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE2E28E1C4535C800680D53;
+			productRefGroup = AAE2E2981C4535C800680D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE2E2961C4535C800680D53 /* RSContactApp */,
+				AAE2E2B21C4535C800680D53 /* RSContactAppTests */,
+				AAE2E2BD1C4535C800680D53 /* RSContactAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE2E2951C4535C800680D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE2E2AD1C4535C800680D53 /* LaunchScreen.storyboard in Resources */,
+				AABCE8441C4616C3001B559D /* contact2.png in Resources */,
+				AAB6011C1C48A7EF00D41D79 /* MetroUI-Other-Phone-icon.png in Resources */,
+				AAE2E2AA1C4535C800680D53 /* Assets.xcassets in Resources */,
+				AAE2E2A51C4535C800680D53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2B11C4535C800680D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2BC1C4535C800680D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE2E2931C4535C800680D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABCE8481C461CAE001B559D /* RSDisplayContactDetailViewController.m in Sources */,
+				AAE2E2A21C4535C800680D53 /* ViewController.m in Sources */,
+				AABCE84C1C46210A001B559D /* RSEditContactViewController.m in Sources */,
+				AAE2E2F21C453F3A00680D53 /* RSManageCoreData.m in Sources */,
+				AAE2E29F1C4535C800680D53 /* AppDelegate.m in Sources */,
+				AAE2E2E51C453C9700680D53 /* RSContactDetails.m in Sources */,
+				AABCE8421C460735001B559D /* RSAddContactViewController.m in Sources */,
+				AAE2E2EB1C453CC100680D53 /* ContactDetails+CoreDataProperties.m in Sources */,
+				AAE2E29C1C4535C800680D53 /* main.m in Sources */,
+				AAE2E2EE1C453CE300680D53 /* RSContactListTableViewController.m in Sources */,
+				AAE2E2EA1C453CC100680D53 /* ContactDetails.m in Sources */,
+				AAE2E2A81C4535C800680D53 /* RSContactApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2AF1C4535C800680D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE2E2BA1C4535C800680D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE2E2C31C4535C800680D53 /* RSContactAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE2E2B51C4535C800680D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE2E2961C4535C800680D53 /* RSContactApp */;
+			targetProxy = AAE2E2B41C4535C800680D53 /* PBXContainerItemProxy */;
+		};
+		AAE2E2C01C4535C800680D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE2E2961C4535C800680D53 /* RSContactApp */;
+			targetProxy = AAE2E2BF1C4535C800680D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAE2E2A31C4535C800680D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE2E2A41C4535C800680D53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE2E2AB1C4535C800680D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE2E2AC1C4535C800680D53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE2E2C51C4535C800680D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAE2E2C61C4535C800680D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE2E2C81C4535C800680D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSContactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAE2E2C91C4535C800680D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSContactApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAE2E2CB1C4535C800680D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSContactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSContactApp.app/RSContactApp";
+			};
+			name = Debug;
+		};
+		AAE2E2CC1C4535C800680D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSContactAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSContactApp.app/RSContactApp";
+			};
+			name = Release;
+		};
+		AAE2E2CE1C4535C800680D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSContactAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSContactApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAE2E2CF1C4535C800680D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSContactAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robosoft.Demo.RSContactAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSContactApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE2E2921C4535C800680D53 /* Build configuration list for PBXProject "RSContactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2E2C51C4535C800680D53 /* Debug */,
+				AAE2E2C61C4535C800680D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE2E2C71C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2E2C81C4535C800680D53 /* Debug */,
+				AAE2E2C91C4535C800680D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE2E2CA1C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2E2CB1C4535C800680D53 /* Debug */,
+				AAE2E2CC1C4535C800680D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE2E2CD1C4535C800680D53 /* Build configuration list for PBXNativeTarget "RSContactAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE2E2CE1C4535C800680D53 /* Debug */,
+				AAE2E2CF1C4535C800680D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAE2E2A61C4535C800680D53 /* RSContactApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAE2E2A71C4535C800680D53 /* RSContactApp.xcdatamodel */,
+			);
+			currentVersion = AAE2E2A71C4535C800680D53 /* RSContactApp.xcdatamodel */;
+			path = RSContactApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAE2E28F1C4535C800680D53 /* Project object */;
+}
