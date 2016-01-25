@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  PhotoGallery
 //
-//  Created by Santosh Kumar Sahoo on 24/12/15.
-//  Copyright © 2015 Robosoft Technologies. All rights reserved.
+//  Created by Santosh Kumar Sahoo on 14/01/16.
+//  Copyright © 2016 Robosoft Technologies. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIPageControl *pageControl = [UIPageControl appearance];
+    pageControl.pageIndicatorTintColor = [UIColor redColor];
+    pageControl.currentPageIndicatorTintColor = [UIColor yellowColor];
+    pageControl.backgroundColor = [UIColor greenColor];
     return YES;
 }
 
@@ -41,5 +45,7 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+-(void)application :(UIApplication *)application handleEventsForBackgroundURLSession:(nonnull NSString *)identifier completionHandler:(nonnull void (^)())completionHandler {
+    
+}
 @end

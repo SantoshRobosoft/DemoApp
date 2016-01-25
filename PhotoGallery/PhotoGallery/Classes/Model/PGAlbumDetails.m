@@ -10,10 +10,11 @@
 
 @implementation PGAlbumDetails
 /**
- @brief This method is initalize the title,albumDescription and imageArray
- @param NSDictionary as parameter which contains album details
- @return returns a instance of PGAlbumDetails type
+ @brief : This method is initalize the title,albumDescription and imageArray
+ @param : NSDictionary as parameter which contains album details
+ @return : returns a instance of PGAlbumDetails type
  */
+
 - (instancetype) initWithDictionary:(NSDictionary *)albumDictionary {
     if (self=[super init]) {
         self.title = [albumDictionary objectForKey:@"Title"];

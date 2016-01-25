@@ -9,11 +9,13 @@
 #import "PGAlbums.h"
 
 @implementation PGAlbums
+
 /**
     @brief This method is initalize the albumArray and added the pGAlbumDetails object to albumArray
     @param NSDictionary as parameter which contains a array as value
     @return returns a instance of PGAlbums type
 */
+
 - (instancetype) initWithAlbum:(NSDictionary *)albumsDictionary {
     if (self=[super init]) {
         self.albumArray=[[NSMutableArray alloc]init];

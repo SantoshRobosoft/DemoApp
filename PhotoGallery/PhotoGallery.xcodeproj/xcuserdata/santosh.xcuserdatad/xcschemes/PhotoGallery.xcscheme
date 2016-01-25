@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA1DE4661C2BE96700E05F0B"
+               BlueprintIdentifier = "AA75748B1C47BABF00BEDC16"
                BuildableName = "PhotoGallery.app"
                BlueprintName = "PhotoGallery"
                ReferencedContainer = "container:PhotoGallery.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA1DE47F1C2BE96700E05F0B"
+               BlueprintIdentifier = "AA7574A41C47BABF00BEDC16"
                BuildableName = "PhotoGalleryTests.xctest"
                BlueprintName = "PhotoGalleryTests"
                ReferencedContainer = "container:PhotoGallery.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AA1DE48A1C2BE96700E05F0B"
+               BlueprintIdentifier = "AA7574AF1C47BABF00BEDC16"
                BuildableName = "PhotoGalleryUITests.xctest"
                BlueprintName = "PhotoGalleryUITests"
                ReferencedContainer = "container:PhotoGallery.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA1DE4661C2BE96700E05F0B"
+            BlueprintIdentifier = "AA75748B1C47BABF00BEDC16"
             BuildableName = "PhotoGallery.app"
             BlueprintName = "PhotoGallery"
             ReferencedContainer = "container:PhotoGallery.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA1DE4661C2BE96700E05F0B"
+            BlueprintIdentifier = "AA75748B1C47BABF00BEDC16"
             BuildableName = "PhotoGallery.app"
             BlueprintName = "PhotoGallery"
             ReferencedContainer = "container:PhotoGallery.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AA1DE4661C2BE96700E05F0B"
+            BlueprintIdentifier = "AA75748B1C47BABF00BEDC16"
             BuildableName = "PhotoGallery.app"
             BlueprintName = "PhotoGallery"
             ReferencedContainer = "container:PhotoGallery.xcodeproj">

@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "albumDelegate.h"
-#import "PGDownloadOperation.h"
+#import "PGAlbums.h"
+#import "PGImageStore.h"
 
 @interface PGNetworkService : NSObject
-@property (strong,nonatomic) NSOperationQueue *operationQueue;
-+ (instancetype) sharedInstance;
-- (void) fetchDataFromURL:(NSString *) imageUrl forDelegate:(id<albumDelegate>)delegate;
+
+- (void)doParseJsonData:(void(^)(NSArray *,NSError *))handler;
+- (void)downloadImageFromUrl:(NSString *)imageUrl withHandler:(void(^)(NSData *,NSError *))handler;
+
 @end

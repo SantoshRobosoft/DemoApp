@@ -10,9 +10,12 @@
 #import "PGAlbums.h"
 
 @interface PGAlbumDetails : NSObject
+
+- (instancetype) initWithDictionary:(NSDictionary *)albumDictionary;
+
 @property (strong,nonatomic) NSString * title;
 @property (strong,nonatomic) NSString * albumDescription;
 @property (strong,nonatomic) NSArray *imageArray;
-- (instancetype) initWithDictionary:(NSDictionary *)albumDictionary;
+
 @end
 
